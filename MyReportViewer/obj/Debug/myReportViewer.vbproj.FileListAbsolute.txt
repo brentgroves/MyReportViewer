@@ -56,3 +56,7 @@ C:\src\MyReportViewer\MyReportViewer\bin\Debug\CrystalDecisions.ReportAppServer.
 C:\src\MyReportViewer\MyReportViewer\bin\Debug\stdole.dll
 C:\src\MyReportViewer\MyReportViewer\obj\Debug\MyReportViewer.exe
 C:\src\MyReportViewer\MyReportViewer\obj\Debug\MyReportViewer.pdb
+C:\src\MyReportViewer\MyReportViewer\bin\Debug\MyReportViewer.exe.manifest
+C:\src\MyReportViewer\MyReportViewer\bin\Debug\MyReportViewer.application
+C:\src\MyReportViewer\MyReportViewer\obj\Debug\MyReportViewer.exe.manifest
+C:\src\MyReportViewer\MyReportViewer\obj\Debug\MyReportViewer.application

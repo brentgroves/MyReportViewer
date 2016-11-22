@@ -33,7 +33,7 @@ Partial Class Main
         Me.TableLayoutPanel1.AutoSize = True
         Me.TableLayoutPanel1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
         Me.TableLayoutPanel1.ColumnCount = 2
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 260.0!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle())
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
         Me.TableLayoutPanel1.Controls.Add(Me.TreeView1, 0, 0)
         Me.TableLayoutPanel1.Controls.Add(Me.CrystalReportViewer1, 1, 0)
@@ -41,7 +41,7 @@ Partial Class Main
         Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
         Me.TableLayoutPanel1.RowCount = 1
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel1.Size = New System.Drawing.Size(1299, 650)
+        Me.TableLayoutPanel1.Size = New System.Drawing.Size(1380, 857)
         Me.TableLayoutPanel1.TabIndex = 0
         '
         'TreeView1
@@ -51,7 +51,7 @@ Partial Class Main
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.TreeView1.Location = New System.Drawing.Point(3, 3)
         Me.TreeView1.Name = "TreeView1"
-        Me.TreeView1.Size = New System.Drawing.Size(254, 644)
+        Me.TreeView1.Size = New System.Drawing.Size(254, 851)
         Me.TreeView1.TabIndex = 0
         '
         'CrystalReportViewer1
@@ -60,20 +60,19 @@ Partial Class Main
         Me.CrystalReportViewer1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
         Me.CrystalReportViewer1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.CrystalReportViewer1.Cursor = System.Windows.Forms.Cursors.Default
-        Me.CrystalReportViewer1.Dock = System.Windows.Forms.DockStyle.Left
         Me.CrystalReportViewer1.Location = New System.Drawing.Point(263, 3)
         Me.CrystalReportViewer1.Name = "CrystalReportViewer1"
-        Me.CrystalReportViewer1.Size = New System.Drawing.Size(1013, 644)
+        Me.CrystalReportViewer1.Size = New System.Drawing.Size(1114, 851)
         Me.CrystalReportViewer1.TabIndex = 1
         '
         'Main
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1303, 655)
+        Me.ClientSize = New System.Drawing.Size(1384, 862)
         Me.Controls.Add(Me.TableLayoutPanel1)
         Me.Name = "Main"
-        Me.Text = "Form1"
+        Me.Text = "My Report Viewer"
         Me.TableLayoutPanel1.ResumeLayout(False)
         Me.ResumeLayout(False)
         Me.PerformLayout()
